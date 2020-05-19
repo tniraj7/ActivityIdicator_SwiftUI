@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34DB35C52473ABB10085AEDB /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34DB35C42473ABB10085AEDB /* ActivityIndicatorView.swift */; };
 		34E6FE2F2473A900009EF557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6FE2E2473A900009EF557 /* AppDelegate.swift */; };
 		34E6FE312473A900009EF557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6FE302473A900009EF557 /* SceneDelegate.swift */; };
 		34E6FE332473A900009EF557 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6FE322473A900009EF557 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34DB35C42473ABB10085AEDB /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		34E6FE2B2473A900009EF557 /* ActivityIdicator_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ActivityIdicator_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E6FE2E2473A900009EF557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		34E6FE302473A900009EF557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		34E6FE2D2473A900009EF557 /* ActivityIdicator_SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				34DB35C42473ABB10085AEDB /* ActivityIndicatorView.swift */,
 				34E6FE2E2473A900009EF557 /* AppDelegate.swift */,
 				34E6FE302473A900009EF557 /* SceneDelegate.swift */,
 				34E6FE322473A900009EF557 /* ContentView.swift */,
@@ -149,6 +152,7 @@
 				34E6FE2F2473A900009EF557 /* AppDelegate.swift in Sources */,
 				34E6FE312473A900009EF557 /* SceneDelegate.swift in Sources */,
 				34E6FE332473A900009EF557 /* ContentView.swift in Sources */,
+				34DB35C52473ABB10085AEDB /* ActivityIndicatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
