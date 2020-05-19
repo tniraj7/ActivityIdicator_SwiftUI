@@ -1,8 +1,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @State private var isLoading: Bool = false
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            ActivityIndicatorView(animating: $isLoading, style: .large)
+            
+            HStack {
+                Button("Start") {
+                    self.isLoading = true
+                }
+                
+                Button("Stop") {
+                    self.isLoading = false
+                }
+            }
+        }
     }
 }
 
