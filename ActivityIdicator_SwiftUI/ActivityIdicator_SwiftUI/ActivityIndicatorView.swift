@@ -9,5 +9,9 @@ struct ActivityIndicatorView: UIViewRepresentable {
     func makeUIView(context: UIViewRepresentableContext<ActivityIndicatorView>) -> UIActivityIndicatorView {
         return UIActivityIndicatorView(style: style)
     }
+
+    func updateUIView(_ uiView: UIActivityIndicatorView, context: UIViewRepresentableContext<ActivityIndicatorView>) {
+        animating ? uiView.startAnimating() : uiView.stopAnimating()
+    }
     
 }
