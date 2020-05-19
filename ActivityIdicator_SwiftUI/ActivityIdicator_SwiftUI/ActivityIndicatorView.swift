@@ -15,3 +15,9 @@ struct ActivityIndicatorView: UIViewRepresentable {
     }
     
 }
+
+struct ActivityIndicator_Previews: PreviewProvider {
+    static var previews: some View {
+        ActivityIndicatorView(animating: .constant(true), style: .large)
+    }
+}
